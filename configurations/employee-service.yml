@@ -13,3 +13,9 @@ logging:
 service:
   employee:
     some-var: Testing
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
