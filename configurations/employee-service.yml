@@ -13,7 +13,7 @@ logging:
 service:
   employee:
     some-var: Testing
-    encrypted-var: 6a51aea821f8b8f322f4640cd0f77ab6de2010155c00e4c0f1c45d256d6774ec
+    encrypted-var: {cipher}6a51aea821f8b8f322f4640cd0f77ab6de2010155c00e4c0f1c45d256d6774ec
     
 management:
   endpoints:
